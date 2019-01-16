@@ -1,0 +1,30 @@
+@page {
+    margin: 3cm 2cm; padding-left: 1cm;
+}
+
+.vouchers-grid {
+	display: flex;
+	flex-flow: wrap;
+	width:1000px;
+}
+
+.container {
+	display: flex;
+	height: 120px;
+	width: 50%;
+	border: 2px rgba(0,0,0,.2) dashed;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.logo { 
+	height: 90px; 
+	width: 90px; 
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+p {
+	font-family: 'monospace';
+}

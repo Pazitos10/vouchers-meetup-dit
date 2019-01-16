@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="vouchers.css"></link>
+	</head>
+	<body class="vouchers-grid">
+		{% for codigo in codigos %}
+		<div class="container">
+			<img src="meetup_logo.png" alt="" class="logo">
+			<p> Código de acceso: {{codigo}} </p>
+			<img src="dit_logo.png" alt="" class="logo">
+		</div>
+		{% endfor %}
+	</body>
+</html>
